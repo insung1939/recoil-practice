@@ -1,10 +1,10 @@
-import { RecoilRoot, selector, useRecoilState, useRecoilValue } from "recoil";
-import CharacterCounter from "./components/CharacterCounter";
+import { RecoilRoot } from "recoil";
+import TodoList from "./components/TodoList";
 function App() {
   return (
     <div className="App">
       <RecoilRoot>
-        <CharacterCounter />
+        <TodoList />
       </RecoilRoot>
     </div>
   );
